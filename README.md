@@ -5,9 +5,6 @@ Die App gibt nach jedem Versuch sofortiges Feedback und zeigt am Ende die gesamt
 🚀 Live Demo
 👉 https://ricsinumberapp.netlify.app/
 
-🖼️ Screenshot
-![Game UI](https://github.com/user-attachments/assets/30969771-598e-4452-bfae-fa52416fcf7b)
-
  🔍 Funktionen
 - Zufällige Zahl zwischen 1 und 50  
 - Sofortiges Feedback: *zu hoch*, *zu niedrig* oder *richtig*  
@@ -15,7 +12,6 @@ Die App gibt nach jedem Versuch sofortiges Feedback und zeigt am Ende die gesamt
 - Zähler für die Anzahl der Versuche  
 - Möglichkeit, das Spiel neu zu starten  
 - Klare, komponentenbasierte Angular‑Benutzeroberfläche  
-
 
 🛠️ Verwendete Technologien
 
