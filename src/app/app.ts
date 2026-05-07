@@ -12,11 +12,13 @@ export class App {
   gi: GameItem = new GameItem(1, "")
   guesses: GameItem[] = []
   generatedNumber: number = Math.floor(Math.random() * 10);
+  vegeajateknak: boolean = false
 
   check(){
     let tipNumber = parseInt(this.tip)
     if(this.generatedNumber == tipNumber){ 
       this.guesses.push(new GameItem(tipNumber, "Sikerült!"))
+      this.vegeajateknak = true
     }
     else if(this.generatedNumber > tipNumber){
       this.guesses.push(new GameItem(tipNumber, "Nagyobbra gondoltam!"))
