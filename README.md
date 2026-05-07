@@ -1,59 +1,25 @@
-# Numberguesser2026
+🎯 Angular Number Guessing Game
+Eine interaktive Angular‑Anwendung, bei der der Benutzer eine zufällige Zahl erraten muss.
+Die App gibt nach jedem Versuch sofortiges Feedback und zeigt am Ende die gesamte Tipp‑Historie an.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+🚀 Live Demo
+👉 https://ricsinumberapp.netlify.app/
 
-## Development server
+🖼️ Screenshot
+![Game UI](https://github.com/user-attachments/assets/30969771-598e-4452-bfae-fa52416fcf7b)
 
-To start a local development server, run:
+ 🔍 Funktionen
+- Zufällige Zahl zwischen 1 und 50  
+- Sofortiges Feedback: *zu hoch*, *zu niedrig* oder *richtig*  
+- Anzeige der gesamten Tipp‑Historie  
+- Zähler für die Anzahl der Versuche  
+- Möglichkeit, das Spiel neu zu starten  
+- Klare, komponentenbasierte Angular‑Benutzeroberfläche  
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🛠️ Verwendete Technologien
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Angular
+TypeScript
+HTML & CSS
+Bootstrap
