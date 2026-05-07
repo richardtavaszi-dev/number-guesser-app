@@ -1,8 +1,8 @@
 
   <div class="content">
       <h1>Számolgatós app</h1>
-      <input type="text" placeholder="Your Tip...">
+      <input type="text" placeholder="Your Tip..." [(ngModel)]="tip">
       <button (click)="check()">Check</button>
-      <p></p>
+      <p *ngFor="let item of guesses"> {{item.guess}} {{item.response}}</p>
     </div>
     
